@@ -3,7 +3,7 @@
 ![StandardRB](https://github.com/andrewmcodes/standardrb-action/workflows/StandardRB/badge.svg)
 ![Tests](https://github.com/andrewmcodes/standardrb-action/workflows/Test/badge.svg)
 ![Build](https://github.com/andrewmcodes/standardrb-action/workflows/Build/badge.svg)
-![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.0.1&color=blue)
+![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.0.2&color=blue)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 # :white_check_mark: StandardRB Action
@@ -22,7 +22,7 @@ Add the following to your GitHub action workflow to use StandardRB Linter Action
 
 ```yaml
 - name: StandardRB Linter
-  uses: andrewmcodes/standardrb-linter-action@v0.0.1
+  uses: andrewmcodes/standardrb-linter-action@v0.0.2
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -42,7 +42,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: StandardRB Linter
-      uses: andrewmcodes/standardrb-action@v0.0.1
+      uses: andrewmcodes/standardrb-action@v0.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
