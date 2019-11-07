@@ -1,11 +1,13 @@
-![StandardRB Action](screenshots/standardrb-action.png)
+<div align="center">
+  <img width="640" height="320" alt="StandardRB Action" src="screenshots/standardrb-action.png" style="border-radius:0.5rem;">
 
-![StandardRB](https://github.com/andrewmcodes/standardrb-action/workflows/StandardRB/badge.svg)
-![Tests](https://github.com/andrewmcodes/standardrb-action/workflows/Test/badge.svg)
-![Build](https://github.com/andrewmcodes/standardrb-action/workflows/Build/badge.svg)
-[![Changelog](https://github.com/andrewmcodes/standardrb-action/workflows/Changelog/badge.svg)](/CHANGELOG.md)
-![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.0.2&color=blue)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+  ![StandardRB](https://github.com/andrewmcodes/standardrb-action/workflows/StandardRB/badge.svg)
+  ![Tests](https://github.com/andrewmcodes/standardrb-action/workflows/Test/badge.svg)
+  ![Build](https://github.com/andrewmcodes/standardrb-action/workflows/Build/badge.svg)
+  [![Changelog](https://github.com/andrewmcodes/standardrb-action/workflows/Changelog/badge.svg)](/CHANGELOG.md)
+  ![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.0.2&color=blue)
+  [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+</div>
 
 # :white_check_mark: StandardRB Action
 
