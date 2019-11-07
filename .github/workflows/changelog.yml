@@ -17,7 +17,7 @@ jobs:
       run: |
         gem install bundler:2.0.2
         bundle install
-        github_changelog_generator -u andrewmcodes -p rubocop-linter-action --token ${{ secrets.GITHUB_TOKEN }}
+        github_changelog_generator -u andrewmcodes -p standardrb-action --token ${{ secrets.GITHUB_TOKEN }}
     - name: Commit files
       run: |
         git config --local user.email "andrewmcodes@protonmail.com"
