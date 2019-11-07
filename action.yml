@@ -1,0 +1,12 @@
+
+name: 'StandardRB Action'
+description: 'A GitHub Action that lints your Ruby code with StandardRb!'
+author: 'Andrew Mason <andrewmcodes@protonmail.com>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+env:
+  GITHUB_TOKEN: secrets.GITHUB_TOKEN
+branding:
+  icon: 'code'
+  color: 'gray-dark'

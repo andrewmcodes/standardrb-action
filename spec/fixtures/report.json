@@ -1,0 +1,1886 @@
+{
+  "metadata": {
+    "rubocop_version": "0.75.1",
+    "ruby_engine": "ruby",
+    "ruby_version": "2.6.4",
+    "ruby_patchlevel": "104",
+    "ruby_platform": "x86_64-darwin18"
+  },
+  "files": [
+    {
+      "path": "Gemfile",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 8,
+            "last_line": 3,
+            "last_column": 29,
+            "length": 22,
+            "line": 3,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 7,
+            "last_line": 6,
+            "last_column": 16,
+            "length": 10,
+            "line": 6,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 19,
+            "last_line": 6,
+            "last_column": 28,
+            "length": 10,
+            "line": 6,
+            "column": 19
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 7,
+            "last_line": 10,
+            "last_column": 12,
+            "length": 6,
+            "line": 10,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 15,
+            "last_line": 10,
+            "last_column": 22,
+            "length": 8,
+            "line": 10,
+            "column": 15
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 7,
+            "last_line": 11,
+            "last_column": 11,
+            "length": 5,
+            "line": 11,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 14,
+            "last_line": 11,
+            "last_column": 24,
+            "length": 11,
+            "line": 11,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 12,
+            "start_column": 7,
+            "last_line": 12,
+            "last_column": 13,
+            "length": 7,
+            "line": 12,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 12,
+            "start_column": 16,
+            "last_line": 12,
+            "last_column": 25,
+            "length": 10,
+            "line": 12,
+            "column": 16
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 7,
+            "last_line": 13,
+            "last_column": 15,
+            "length": 9,
+            "line": 13,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 18,
+            "last_line": 13,
+            "last_column": 25,
+            "length": 8,
+            "line": 13,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 28,
+            "last_line": 13,
+            "last_column": 37,
+            "length": 10,
+            "line": 13,
+            "column": 28
+          }
+        }
+      ]
+    },
+    {
+      "path": "lib/github_check_run_service.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 16,
+            "last_line": 4,
+            "last_column": 27,
+            "length": 12,
+            "line": 4,
+            "column": 16
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 66,
+            "last_line": 10,
+            "last_column": 84,
+            "length": 19,
+            "line": 10,
+            "column": 66
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 17,
+            "start_column": 7,
+            "last_line": 17,
+            "last_column": 10,
+            "length": 4,
+            "line": 17,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put a comma after the last item of a multiline hash.",
+          "cop_name": "Style/TrailingCommaInHashLiteral",
+          "corrected": false,
+          "location": {
+            "start_line": 39,
+            "start_column": 7,
+            "last_line": 39,
+            "last_column": 34,
+            "length": 28,
+            "line": 39,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 44,
+            "start_column": 18,
+            "last_line": 44,
+            "last_column": 30,
+            "length": 13,
+            "line": 44,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 48,
+            "start_column": 18,
+            "last_line": 48,
+            "last_column": 28,
+            "length": 11,
+            "line": 48,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put a comma after the last item of a multiline hash.",
+          "cop_name": "Style/TrailingCommaInHashLiteral",
+          "corrected": false,
+          "location": {
+            "start_line": 53,
+            "start_column": 9,
+            "last_line": 53,
+            "last_column": 63,
+            "length": 55,
+            "line": 53,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 53,
+            "start_column": 54,
+            "last_line": 53,
+            "last_column": 62,
+            "length": 9,
+            "line": 53,
+            "column": 54
+          }
+        }
+      ]
+    },
+    {
+      "path": "lib/github_client.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 44,
+            "last_line": 4,
+            "last_column": 49,
+            "length": 6,
+            "line": 4,
+            "column": 44
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 25,
+            "start_column": 23,
+            "last_line": 25,
+            "last_column": 40,
+            "length": 18,
+            "line": 25,
+            "column": 23
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 26,
+            "start_column": 17,
+            "last_line": 26,
+            "last_column": 61,
+            "length": 45,
+            "line": 26,
+            "column": 17
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put a comma after the last item of a multiline hash.",
+          "cop_name": "Style/TrailingCommaInHashLiteral",
+          "corrected": false,
+          "location": {
+            "start_line": 28,
+            "start_column": 7,
+            "last_line": 28,
+            "last_column": 31,
+            "length": 25,
+            "line": 28,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 33,
+            "start_column": 26,
+            "last_line": 33,
+            "last_column": 41,
+            "length": 16,
+            "line": 33,
+            "column": 26
+          }
+        }
+      ]
+    },
+    {
+      "path": "lib/index.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 9,
+            "last_line": 3,
+            "last_column": 18,
+            "length": 10,
+            "line": 3,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 9,
+            "last_line": 4,
+            "last_column": 14,
+            "length": 6,
+            "line": 4,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 9,
+            "last_line": 5,
+            "last_column": 14,
+            "length": 6,
+            "line": 5,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 18,
+            "last_line": 6,
+            "last_column": 35,
+            "length": 18,
+            "line": 6,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 18,
+            "last_line": 7,
+            "last_column": 45,
+            "length": 28,
+            "line": 7,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 18,
+            "last_line": 8,
+            "last_column": 34,
+            "length": 17,
+            "line": 8,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 29,
+            "last_line": 14,
+            "last_column": 47,
+            "length": 19,
+            "line": 14,
+            "column": 29
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 58,
+            "last_line": 14,
+            "last_column": 76,
+            "length": 19,
+            "line": 14,
+            "column": 58
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 16,
+            "start_column": 12,
+            "last_line": 16,
+            "last_column": 23,
+            "length": 12,
+            "line": 16,
+            "column": 12
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 17,
+            "start_column": 14,
+            "last_line": 17,
+            "last_column": 27,
+            "length": 14,
+            "line": 17,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 18,
+            "start_column": 14,
+            "last_line": 18,
+            "last_column": 38,
+            "length": 25,
+            "line": 18,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 18,
+            "start_column": 60,
+            "last_line": 18,
+            "last_column": 71,
+            "length": 12,
+            "line": 18,
+            "column": 60
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 18,
+            "start_column": 74,
+            "last_line": 18,
+            "last_column": 80,
+            "length": 7,
+            "line": 18,
+            "column": 74
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 18,
+            "start_column": 83,
+            "last_line": 18,
+            "last_column": 89,
+            "length": 7,
+            "line": 18,
+            "column": 83
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put a comma after the last item of a multiline hash.",
+          "cop_name": "Style/TrailingCommaInHashLiteral",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 3,
+            "last_line": 19,
+            "last_column": 78,
+            "length": 76,
+            "line": 19,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 13,
+            "last_line": 19,
+            "last_column": 36,
+            "length": 24,
+            "line": 19,
+            "column": 13
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 58,
+            "last_line": 19,
+            "last_column": 69,
+            "length": 12,
+            "line": 19,
+            "column": 58
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 72,
+            "last_line": 19,
+            "last_column": 77,
+            "length": 6,
+            "line": 19,
+            "column": 72
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 22,
+            "start_column": 10,
+            "last_line": 22,
+            "last_column": 22,
+            "length": 13,
+            "line": 22,
+            "column": 10
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 23,
+            "start_column": 19,
+            "last_line": 23,
+            "last_column": 31,
+            "length": 13,
+            "line": 23,
+            "column": 19
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 25,
+            "start_column": 19,
+            "last_line": 25,
+            "last_column": 36,
+            "length": 18,
+            "line": 25,
+            "column": 19
+          }
+        }
+      ]
+    },
+    {
+      "path": "lib/report_adapter.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Space inside { detected.",
+          "cop_name": "Layout/SpaceInsideHashLiteralBraces",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 25,
+            "last_line": 5,
+            "last_column": 25,
+            "length": 1,
+            "line": 5,
+            "column": 25
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 35,
+            "last_line": 5,
+            "last_column": 43,
+            "length": 9,
+            "line": 5,
+            "column": 35
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 55,
+            "last_line": 5,
+            "last_column": 63,
+            "length": 9,
+            "line": 5,
+            "column": 55
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Space inside } detected.",
+          "cop_name": "Layout/SpaceInsideHashLiteralBraces",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 64,
+            "last_line": 5,
+            "last_column": 64,
+            "length": 1,
+            "line": 5,
+            "column": 64
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 7,
+            "last_line": 7,
+            "last_column": 16,
+            "length": 10,
+            "line": 7,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 21,
+            "last_line": 7,
+            "last_column": 29,
+            "length": 9,
+            "line": 7,
+            "column": 21
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 7,
+            "last_line": 8,
+            "last_column": 18,
+            "length": 12,
+            "line": 8,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 23,
+            "last_line": 8,
+            "last_column": 31,
+            "length": 9,
+            "line": 8,
+            "column": 23
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 9,
+            "start_column": 7,
+            "last_line": 9,
+            "last_column": 15,
+            "length": 9,
+            "line": 9,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 9,
+            "start_column": 20,
+            "last_line": 9,
+            "last_column": 28,
+            "length": 9,
+            "line": 9,
+            "column": 20
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 7,
+            "last_line": 10,
+            "last_column": 13,
+            "length": 7,
+            "line": 10,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 18,
+            "last_line": 10,
+            "last_column": 26,
+            "length": 9,
+            "line": 10,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 7,
+            "last_line": 11,
+            "last_column": 13,
+            "length": 7,
+            "line": 11,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put a comma after the last item of a multiline hash.",
+          "cop_name": "Style/TrailingCommaInHashLiteral",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 7,
+            "last_line": 11,
+            "last_column": 26,
+            "length": 20,
+            "line": 11,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 18,
+            "last_line": 11,
+            "last_column": 26,
+            "length": 9,
+            "line": 11,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 27,
+            "start_column": 14,
+            "last_line": 27,
+            "last_column": 20,
+            "length": 7,
+            "line": 27,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 28,
+            "start_column": 14,
+            "last_line": 28,
+            "last_column": 23,
+            "length": 10,
+            "line": 28,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 32,
+            "start_column": 30,
+            "last_line": 32,
+            "last_column": 39,
+            "length": 10,
+            "line": 32,
+            "column": 30
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 33,
+            "start_column": 32,
+            "last_line": 33,
+            "last_column": 43,
+            "length": 12,
+            "line": 33,
+            "column": 32
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 33,
+            "start_column": 58,
+            "last_line": 33,
+            "last_column": 68,
+            "length": 11,
+            "line": 33,
+            "column": 58
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 36,
+            "start_column": 28,
+            "last_line": 36,
+            "last_column": 33,
+            "length": 6,
+            "line": 36,
+            "column": 28
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 37,
+            "start_column": 38,
+            "last_line": 37,
+            "last_column": 49,
+            "length": 12,
+            "line": 37,
+            "column": 38
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 38,
+            "start_column": 36,
+            "last_line": 38,
+            "last_column": 46,
+            "length": 11,
+            "line": 38,
+            "column": 36
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 39,
+            "start_column": 41,
+            "last_line": 39,
+            "last_column": 54,
+            "length": 14,
+            "line": 39,
+            "column": 41
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 40,
+            "start_column": 39,
+            "last_line": 40,
+            "last_column": 51,
+            "length": 13,
+            "line": 40,
+            "column": 39
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 41,
+            "start_column": 60,
+            "last_line": 41,
+            "last_column": 69,
+            "length": 10,
+            "line": 41,
+            "column": 60
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put a comma after the last item of a multiline hash.",
+          "cop_name": "Style/TrailingCommaInHashLiteral",
+          "corrected": false,
+          "location": {
+            "start_line": 42,
+            "start_column": 15,
+            "last_line": 42,
+            "last_column": 43,
+            "length": 29,
+            "line": 42,
+            "column": 15
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 42,
+            "start_column": 34,
+            "last_line": 42,
+            "last_column": 42,
+            "length": 9,
+            "line": 42,
+            "column": 34
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 56,
+            "start_column": 18,
+            "last_line": 56,
+            "last_column": 26,
+            "length": 9,
+            "line": 56,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 56,
+            "start_column": 29,
+            "last_line": 56,
+            "last_column": 43,
+            "length": 15,
+            "line": 56,
+            "column": 29
+          }
+        }
+      ]
+    },
+    {
+      "path": "spec/github_check_run_service_spec.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 9,
+            "last_line": 3,
+            "last_column": 28,
+            "length": 20,
+            "line": 3,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 41,
+            "last_line": 6,
+            "last_column": 69,
+            "length": 29,
+            "line": 6,
+            "column": 41
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Space inside { detected.",
+          "cop_name": "Layout/SpaceInsideHashLiteralBraces",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 24,
+            "last_line": 7,
+            "last_column": 24,
+            "length": 1,
+            "line": 7,
+            "column": 24
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 30,
+            "last_line": 7,
+            "last_column": 34,
+            "length": 5,
+            "line": 7,
+            "column": 30
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 44,
+            "last_line": 7,
+            "last_column": 50,
+            "length": 7,
+            "line": 7,
+            "column": 44
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 60,
+            "last_line": 7,
+            "last_column": 66,
+            "length": 7,
+            "line": 7,
+            "column": 60
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 75,
+            "last_line": 7,
+            "last_column": 91,
+            "length": 17,
+            "line": 7,
+            "column": 75
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Space inside } detected.",
+          "cop_name": "Layout/SpaceInsideHashLiteralBraces",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 92,
+            "last_line": 7,
+            "last_column": 92,
+            "length": 1,
+            "line": 7,
+            "column": 92
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 6,
+            "last_line": 10,
+            "last_column": 11,
+            "length": 6,
+            "line": 10,
+            "column": 6
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 24,
+            "last_line": 11,
+            "last_column": 89,
+            "length": 66,
+            "line": 11,
+            "column": 24
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 12,
+            "start_column": 37,
+            "last_line": 12,
+            "last_column": 40,
+            "length": 4,
+            "line": 12,
+            "column": 37
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 24,
+            "last_line": 14,
+            "last_column": 86,
+            "length": 63,
+            "line": 14,
+            "column": 24
+          }
+        }
+      ]
+    },
+    {
+      "path": "spec/report_adapter_spec.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 9,
+            "last_line": 3,
+            "last_column": 28,
+            "length": 20,
+            "line": 3,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 20,
+            "last_line": 7,
+            "last_column": 48,
+            "length": 29,
+            "line": 7,
+            "column": 20
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 12,
+            "start_column": 6,
+            "last_line": 12,
+            "last_column": 18,
+            "length": 13,
+            "line": 12,
+            "column": 6
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 26,
+            "last_line": 14,
+            "last_column": 34,
+            "length": 9,
+            "line": 14,
+            "column": 26
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 17,
+            "start_column": 6,
+            "last_line": 17,
+            "last_column": 15,
+            "length": 10,
+            "line": 17,
+            "column": 6
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 26,
+            "last_line": 19,
+            "last_column": 47,
+            "length": 22,
+            "line": 19,
+            "column": 26
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 22,
+            "start_column": 11,
+            "last_line": 22,
+            "last_column": 42,
+            "length": 32,
+            "line": 22,
+            "column": 11
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 23,
+            "start_column": 8,
+            "last_line": 23,
+            "last_column": 21,
+            "length": 14,
+            "line": 23,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 26,
+            "start_column": 9,
+            "last_line": 26,
+            "last_column": 14,
+            "length": 6,
+            "line": 26,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 26,
+            "start_column": 19,
+            "last_line": 26,
+            "last_column": 27,
+            "length": 9,
+            "line": 26,
+            "column": 19
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 27,
+            "start_column": 9,
+            "last_line": 27,
+            "last_column": 20,
+            "length": 12,
+            "line": 27,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 28,
+            "start_column": 9,
+            "last_line": 28,
+            "last_column": 18,
+            "length": 10,
+            "line": 28,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 29,
+            "start_column": 9,
+            "last_line": 29,
+            "last_column": 22,
+            "length": 14,
+            "line": 29,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 30,
+            "start_column": 9,
+            "last_line": 30,
+            "last_column": 20,
+            "length": 12,
+            "line": 30,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 31,
+            "start_column": 9,
+            "last_line": 31,
+            "last_column": 26,
+            "length": 18,
+            "line": 31,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 31,
+            "start_column": 31,
+            "last_line": 31,
+            "last_column": 39,
+            "length": 9,
+            "line": 31,
+            "column": 31
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 32,
+            "start_column": 9,
+            "last_line": 32,
+            "last_column": 17,
+            "length": 9,
+            "line": 32,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 32,
+            "start_column": 22,
+            "last_line": 32,
+            "last_column": 77,
+            "length": 56,
+            "line": 32,
+            "column": 22
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 37,
+            "start_column": 11,
+            "last_line": 37,
+            "last_column": 46,
+            "length": 36,
+            "line": 37,
+            "column": 11
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 38,
+            "start_column": 8,
+            "last_line": 38,
+            "last_column": 21,
+            "length": 14,
+            "line": 38,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 41,
+            "start_column": 9,
+            "last_line": 41,
+            "last_column": 14,
+            "length": 6,
+            "line": 41,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 41,
+            "start_column": 19,
+            "last_line": 41,
+            "last_column": 27,
+            "length": 9,
+            "line": 41,
+            "column": 19
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 42,
+            "start_column": 9,
+            "last_line": 42,
+            "last_column": 20,
+            "length": 12,
+            "line": 42,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 43,
+            "start_column": 9,
+            "last_line": 43,
+            "last_column": 18,
+            "length": 10,
+            "line": 43,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 44,
+            "start_column": 9,
+            "last_line": 44,
+            "last_column": 26,
+            "length": 18,
+            "line": 44,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 44,
+            "start_column": 31,
+            "last_line": 44,
+            "last_column": 39,
+            "length": 9,
+            "line": 44,
+            "column": 31
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 45,
+            "start_column": 9,
+            "last_line": 45,
+            "last_column": 17,
+            "length": 9,
+            "line": 45,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 45,
+            "start_column": 22,
+            "last_line": 45,
+            "last_column": 57,
+            "length": 36,
+            "line": 45,
+            "column": 22
+          }
+        }
+      ]
+    },
+    {
+      "path": "spec/spec_helper.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 9,
+            "last_line": 3,
+            "last_column": 23,
+            "length": 15,
+            "line": 3,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 9,
+            "last_line": 4,
+            "last_column": 14,
+            "length": 6,
+            "line": 4,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 9,
+            "last_line": 5,
+            "last_column": 13,
+            "length": 5,
+            "line": 5,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 9,
+            "last_line": 6,
+            "last_column": 30,
+            "length": 22,
+            "line": 6,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 9,
+            "last_line": 7,
+            "last_column": 40,
+            "length": 32,
+            "line": 7,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 9,
+            "last_line": 8,
+            "last_column": 29,
+            "length": 21,
+            "line": 8,
+            "column": 9
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "offense_count": 122,
+    "target_file_count": 8,
+    "inspected_file_count": 8
+  }
+}

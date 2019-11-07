@@ -1,0 +1,15 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+    name: Action CI
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Verify action syntax
+      # The action should not publish any real changes, but should succeed.
+      uses: './'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
