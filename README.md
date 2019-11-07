@@ -11,7 +11,7 @@
 
 # :white_check_mark: StandardRB Action
 
-A GitHub Action to run StandardRB against your code and create annotations in the GitHub UI.
+A GitHub Action to run [StandardRB](https://github.com/testdouble/standard) against your code and create annotations in the GitHub UI.
 
 - [:white_check_mark: StandardRB Action](#whitecheckmark-standardrb-action)
   - [:page_facing_up: Introduction](#pagefacingup-introduction)
@@ -23,7 +23,7 @@ A GitHub Action to run StandardRB against your code and create annotations in th
   - [:sos: Contributing](#sos-contributing)
   - [:rotating_light: Code of Conduct](#rotatinglight-code-of-conduct)
   - [:copyright: License](#copyright-license)
-  - [:1st_place_medal: Recognition](#1stplacemedal-recognition)
+  - [:robot: Check Out My Other Ruby GitHub Actions](#robot-check-out-my-other-ruby-github-actions)
   - [✨ Contributors](#%e2%9c%a8-contributors)
 
 ## :page_facing_up: Introduction
@@ -88,9 +88,11 @@ Due to the GitHub Check Runs API, we can only return 50 annotations per run. See
 
 [MIT](/LICENSE.md)
 
-## :1st_place_medal: Recognition
+## :robot: Check Out My Other Ruby GitHub Actions
 
-This project was originally forked from [andrewmcodes/rubocop-linter-action](https://github.com/andrewmcodes/rubocop-linter-action).
+- [andrewmcodes/rubocop-linter-action](https://github.com/andrewmcodes/rubocop-linter-action).
+- [andrewmcodes/haml-lint-action](https://github.com/andrewmcodes/haml-lint-action).
+
 
 ## ✨ Contributors
 
