@@ -1,3 +1,5 @@
+![StandardRB Action](screenshots/standardrb-action.png)
+
 ![StandardRB](https://github.com/andrewmcodes/standardrb-action/workflows/StandardRB/badge.svg)
 ![Tests](https://github.com/andrewmcodes/standardrb-action/workflows/Test/badge.svg)
 ![Build](https://github.com/andrewmcodes/standardrb-action/workflows/Build/badge.svg)
@@ -50,7 +52,8 @@ Due to the GitHub Check Runs API, we can only return 50 annotations per run. See
 
 ## :camera_flash: Screenshots
 
-TODO
+![StandardRB Action Checks Overview](screenshots/check-overview.png)
+![StandardRB Action File Annotation](screenshots/file-annotation.png)
 
 ## :sos: Contributing
 
