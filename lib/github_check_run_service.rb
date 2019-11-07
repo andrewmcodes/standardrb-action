@@ -1,20 +1,20 @@
 # frozen_string_literal: true
 
 class GithubCheckRunService
-  CHECK_NAME = 'StandardRB'
+  CHECK_NAME = "StandardRB"
 
   def initialize(report, github_data, report_adapter)
     @report = report
     @github_data = github_data
     @report_adapter = report_adapter
-    @client = GithubClient.new(@github_data[:token], user_agent: 'standardrb-action')
+    @client = GithubClient.new(@github_data[:token], user_agent: "standardrb-action")
   end
 
   def run
     id = @client.post(
       endpoint_url,
       create_check_payload
-    )['id']
+    )["id"]
     @summary = @report_adapter.summary(@report)
     @annotations = @report_adapter.annotations(@report)
     @conclusion = @report_adapter.conclusion(@report)
@@ -36,21 +36,21 @@ class GithubCheckRunService
       name: CHECK_NAME,
       head_sha: @github_data[:sha],
       status: status,
-      started_at: Time.now.iso8601
+      started_at: Time.now.iso8601,
     }
   end
 
   def create_check_payload
-    base_payload('in_progress')
+    base_payload("in_progress")
   end
 
   def update_check_payload
-    base_payload('completed').merge!(
+    base_payload("completed").merge!(
       conclusion: @conclusion,
       output: {
         title: CHECK_NAME,
         summary: @summary,
-        annotations: (@annotations if @conclusion == 'failure')
+        annotations: (@annotations if @conclusion == "failure"),
       }.compact
     )
   end

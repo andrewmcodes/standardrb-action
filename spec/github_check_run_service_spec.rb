@@ -1,17 +1,17 @@
 # frozen_string_literal: true
 
-require './spec/spec_helper'
+require "./spec/spec_helper"
 
 describe GithubCheckRunService do
-  let(:standardrb_report) { JSON(File.read('./spec/fixtures/report.json')) }
-  let(:github_data) { { sha: 'sha', token: 'token', owner: 'owner', repo: 'repository_name' } }
+  let(:standardrb_report) { JSON(File.read("./spec/fixtures/report.json")) }
+  let(:github_data) { {sha: "sha", token: "token", owner: "owner", repo: "repository_name"} }
   let(:service) { GithubCheckRunService.new(standardrb_report, github_data, ReportAdapter) }
 
-  it '#run' do
-    stub_request(:any, 'https://api.github.com/repos/owner/repository_name/check-runs/id')
-      .to_return(status: 200, body: '{}')
+  it "#run" do
+    stub_request(:any, "https://api.github.com/repos/owner/repository_name/check-runs/id")
+      .to_return(status: 200, body: "{}")
 
-    stub_request(:any, 'https://api.github.com/repos/owner/repository_name/check-runs')
+    stub_request(:any, "https://api.github.com/repos/owner/repository_name/check-runs")
       .to_return(status: 200, body: '{"id": "id"}')
 
     output = service.run
