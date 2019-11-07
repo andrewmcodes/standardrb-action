@@ -1,13 +1,15 @@
 # frozen_string_literal: true
+require 'securerandom'
 
 class GithubCheckRunService
-  CHECK_NAME = "StandardRB"
+  CHECK_NAME = "StandardRB Action"
 
   def initialize(report, github_data, report_adapter)
     @report = report
     @github_data = github_data
     @report_adapter = report_adapter
     @client = GithubClient.new(@github_data[:token], user_agent: "standardrb-action")
+    @uuid = SecureRandom.uuid
   end
 
   def run
@@ -46,6 +48,7 @@ class GithubCheckRunService
       head_sha: @github_data[:sha],
       status: status,
       started_at: Time.now.iso8601,
+      external_id: @uuid,
     }
   end
 
