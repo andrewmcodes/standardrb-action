@@ -38,7 +38,7 @@ Add the following to your GitHub action workflow to use StandardRB Linter Action
 
 ```yaml
 - name: StandardRB Linter
-  uses: andrewmcodes/standardrb-linter-action@v0.0.2
+  uses: andrewmcodes/standardrb-action@v0.0.2
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
