@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update incorrect project name in README [\#8](https://github.com/andrewmcodes/standardrb-action/pull/8) ([martinemde](https://github.com/martinemde))
 - Add changelog generator [\#6](https://github.com/andrewmcodes/standardrb-action/pull/6) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v0.0.2](https://github.com/andrewmcodes/standardrb-action/tree/v0.0.2) (2019-11-07)
