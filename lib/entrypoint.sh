@@ -9,7 +9,8 @@ set -e
 # i think so
 cat Gemfile
 
-bundle install --with ci
+bundle config set --local with 'ci'
+bundle install
 
 # this runs the standardrb binary and reports results to GitHub
 ruby /action/lib/index.rb
