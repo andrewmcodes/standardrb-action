@@ -10,6 +10,7 @@ set -e
 cat Gemfile
 
 bundle config set --local with 'ci'
+bundle config set --local without 'default development test'
 bundle install
 
 # this runs the standardrb binary and reports results to GitHub
