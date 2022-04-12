@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 group :development do
-  gem "standard", "~> 0.1.5"
+  gem "standard", "~> 1.10"
 end
 
 group :test do
