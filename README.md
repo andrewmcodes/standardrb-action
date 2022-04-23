@@ -1,12 +1,11 @@
 <div align="center">
   <img width="640" height="320" alt="StandardRB Action" src="screenshots/standardrb-action.png" style="border-radius:0.5rem;">
 
-  ![StandardRB](https://github.com/andrewmcodes/standardrb-action/workflows/StandardRB/badge.svg)
-  ![Tests](https://github.com/andrewmcodes/standardrb-action/workflows/Test/badge.svg)
-  ![Build](https://github.com/andrewmcodes/standardrb-action/workflows/Build/badge.svg)
-  [![Changelog](https://github.com/andrewmcodes/standardrb-action/workflows/Changelog/badge.svg)](/CHANGELOG.md)
-  ![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.0.2&color=blue)
-  [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+  [![StandardRB](https://github.com/andrewmcodes/standardrb-action/actions/workflows/standard.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/standard.yml)
+  [![Test](https://github.com/andrewmcodes/standardrb-action/actions/workflows/test.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/test.yml)
+  [![build](https://github.com/andrewmcodes/standardrb-action/actions/workflows/build.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/build.yml)
+  [![release](https://github.com/andrewmcodes/standardrb-action/actions/workflows/release.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/release.yml)
+  ![Version Number](https://img.shields.io/static/v1?label=Version&message=v1.0.0&color=blue)
 </div>
 
 # :white_check_mark: StandardRB Action
@@ -25,7 +24,7 @@ Add the following to your GitHub action workflow to use StandardRB Linter Action
 
 ```yaml
 - name: StandardRB Linter
-  uses: andrewmcodes/standardrb-action@v0.0.2
+  uses: andrewmcodes/standardrb-action@v1.0.0
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -45,7 +44,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: StandardRB Linter
-      uses: andrewmcodes/standardrb-action@v0.0.2
+      uses: andrewmcodes/standardrb-action@v1.0.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
