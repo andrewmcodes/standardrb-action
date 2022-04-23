@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.0.0](https://github.com/andrewmcodes/standardrb-action/compare/v0.0.2...v1.0.0) (2022-04-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* **dev-deps:** upgrade Standard to 1.10 (#15)
+
+### Features
+
+* **dev-deps:** upgrade Standard to 1.10 ([#15](https://github.com/andrewmcodes/standardrb-action/issues/15)) ([2f91b2e](https://github.com/andrewmcodes/standardrb-action/commit/2f91b2e70518d724dca228d9910978abf0ec120e))
+
+
+### Bug Fixes
+
+* address all failing lints ([#17](https://github.com/andrewmcodes/standardrb-action/issues/17)) ([7334a82](https://github.com/andrewmcodes/standardrb-action/commit/7334a82973d088fdde2904d7c4cd2dc88629c1a4))
+
 ## [Unreleased](https://github.com/andrewmcodes/standardrb-action/tree/HEAD)
 
 [Full Changelog](https://github.com/andrewmcodes/standardrb-action/compare/v0.0.2...HEAD)
