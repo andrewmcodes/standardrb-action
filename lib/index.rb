@@ -16,7 +16,7 @@ end
   sha: ENV["GITHUB_SHA"],
   token: ENV["GITHUB_TOKEN"],
   owner: ENV["GITHUB_REPOSITORY_OWNER"] || @event_json.dig("repository", "owner", "login"),
-  repo: ENV["GITHUB_REPOSITORY_NAME"] || @event_json.dig("repository", "name"),
+  repo: ENV["GITHUB_REPOSITORY_NAME"] || @event_json.dig("repository", "name")
 }
 @report =
   if ENV["REPORT_PATH"]

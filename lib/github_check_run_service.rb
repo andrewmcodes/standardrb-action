@@ -36,7 +36,7 @@ class GithubCheckRunService
       name: CHECK_NAME,
       head_sha: @github_data[:sha],
       status: status,
-      started_at: Time.now.iso8601,
+      started_at: Time.now.iso8601
     }
   end
 
@@ -50,7 +50,7 @@ class GithubCheckRunService
       output: {
         title: CHECK_NAME,
         summary: @summary,
-        annotations: @annotations,
+        annotations: @annotations
       }
     )
   end

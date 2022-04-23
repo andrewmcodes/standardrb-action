@@ -13,19 +13,6 @@
 
 A GitHub Action to run [StandardRB](https://github.com/testdouble/standard) against your code and create annotations in the GitHub UI.
 
-- [:white_check_mark: StandardRB Action](#whitecheckmark-standardrb-action)
-  - [:page_facing_up: Introduction](#pagefacingup-introduction)
-  - [:bulb: Usage](#bulb-usage)
-    - [:package: Example Workflow](#package-example-workflow)
-  - [:warning: Gotchas](#warning-gotchas)
-  - [:camera_flash: Screenshots](#cameraflash-screenshots)
-  - [:bookmark: Changelog](#bookmark-changelog)
-  - [:sos: Contributing](#sos-contributing)
-  - [:rotating_light: Code of Conduct](#rotatinglight-code-of-conduct)
-  - [:copyright: License](#copyright-license)
-  - [:robot: Check Out My Other Ruby GitHub Actions](#robot-check-out-my-other-ruby-github-actions)
-  - [✨ Contributors](#%e2%9c%a8-contributors)
-
 ## :page_facing_up: Introduction
 
 GitHub Actions are an amazing new tool that can dramatically improve productivity while using the GitHub platform. While it is not hard to write a custom GitHub action to run StandardRB on your codebase, this action takes that functionality one step further using the checks API. After the StandardRB Linter Action runs StandardRB against your code, it will create annotations that you can easily view, matched up with the offending code.
@@ -87,25 +74,3 @@ Due to the GitHub Check Runs API, we can only return 50 annotations per run. See
 ## :copyright: License
 
 [MIT](/LICENSE.md)
-
-## :robot: Check Out My Other Ruby GitHub Actions
-
-- [andrewmcodes/rubocop-linter-action](https://github.com/andrewmcodes/rubocop-linter-action).
-- [andrewmcodes/haml-lint-action](https://github.com/andrewmcodes/haml-lint-action).
-
-
-## ✨ Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://www.andrewmason.me/"><img src="https://avatars1.githubusercontent.com/u/18423853?v=4" width="100px;" alt="Andrew Mason"/><br /><sub><b>Andrew Mason</b></sub></a><br /><a href="#infra-andrewmcodes" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/andrewmcodes/standardrb-action/commits?author=andrewmcodes" title="Documentation">📖</a> <a href="https://github.com/andrewmcodes/standardrb-action/commits?author=andrewmcodes" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
