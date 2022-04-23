@@ -8,7 +8,7 @@ class ReportAdapter
       "convention" => "failure",
       "warning" => "warning",
       "error" => "failure",
-      "fatal" => "failure",
+      "fatal" => "failure"
     }.freeze
 
     def conclusion(report)
@@ -33,13 +33,13 @@ class ReportAdapter
           same_line = location["start_line"] == location["last_line"]
           annotation_list.push(
             {
-              'path': file["path"],
-              'start_line': location["start_line"],
-              'end_line': location["last_line"],
-              'start_column': (location["start_column"] if same_line),
-              'end_column': (location["last_column"] if same_line),
-              'annotation_level': annotation_level(offense["severity"]),
-              'message': offense["message"],
+              path: file["path"],
+              start_line: location["start_line"],
+              end_line: location["last_line"],
+              start_column: (location["start_column"] if same_line),
+              end_column: (location["last_column"] if same_line),
+              annotation_level: annotation_level(offense["severity"]),
+              message: offense["message"]
             }.compact.transform_keys!(&:to_s)
           )
         end
