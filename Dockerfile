@@ -1,4 +1,4 @@
-FROM ruby:2.6.5-alpine
+FROM ruby:alpine3.18
 
 RUN apk add --update build-base git
 
