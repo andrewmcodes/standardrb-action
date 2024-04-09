@@ -3,9 +3,9 @@
 require "net/http"
 require "json"
 require "time"
-require_relative "./report_adapter"
-require_relative "./github_check_run_service"
-require_relative "./github_client"
+require_relative "report_adapter"
+require_relative "github_check_run_service"
+require_relative "github_client"
 
 def read_json(path)
   JSON.parse(File.read(path))
