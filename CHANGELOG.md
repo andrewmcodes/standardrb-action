@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/andrewmcodes/standardrb-action/compare/v1.0.0...v2.0.0) (2024-04-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade Ruby version to 3.2.2 ([#20](https://github.com/andrewmcodes/standardrb-action/issues/20))
+
+### Features
+
+* upgrade Ruby version to 3.2.2 ([#20](https://github.com/andrewmcodes/standardrb-action/issues/20)) ([ccdbc2a](https://github.com/andrewmcodes/standardrb-action/commit/ccdbc2a4ff192bf4c2ead28b0851780519469812))
+
 ## [1.0.0](https://github.com/andrewmcodes/standardrb-action/compare/v0.0.2...v1.0.0) (2022-04-23)
 
 
