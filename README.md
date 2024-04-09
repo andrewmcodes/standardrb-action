@@ -14,13 +14,6 @@
 >     - run: bundle exec standardrb --format github --parallel
 > ```
 
-<div align="center">
-  [![StandardRB](https://github.com/andrewmcodes/standardrb-action/actions/workflows/standard.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/standard.yml)
-  [![Test](https://github.com/andrewmcodes/standardrb-action/actions/workflows/test.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/test.yml)
-  [![build](https://github.com/andrewmcodes/standardrb-action/actions/workflows/build.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/build.yml)
-  [![release](https://github.com/andrewmcodes/standardrb-action/actions/workflows/release.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/release.yml)
-</div>
-
 # :white_check_mark: StandardRB Action
 
 A GitHub Action to run [StandardRB](https://github.com/testdouble/standard) against your code and create annotations in the GitHub UI.
