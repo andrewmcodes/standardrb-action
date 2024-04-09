@@ -1,11 +1,24 @@
-<div align="center">
-  <img width="640" height="320" alt="StandardRB Action" src="screenshots/standardrb-action.png" style="border-radius:0.5rem;">
+ > [!CAUTION]
+> This action is unnecessary and will slow down your CI suite. As such, it is not actively maintained.
+> To migrate, add this job to your workflow to achieve the same results:
+>
+> ```
+> standardrb:
+>   name: StandardRB
+>   runs-on: ubuntu-latest
+>   steps:
+>     - uses: actions/checkout@v4
+>     - uses: ruby/setup-ruby@v1
+>       with:
+>         bundler-cache: true
+>     - run: bundle exec standardrb --format github --parallel
+> ```
 
+<div align="center">
   [![StandardRB](https://github.com/andrewmcodes/standardrb-action/actions/workflows/standard.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/standard.yml)
   [![Test](https://github.com/andrewmcodes/standardrb-action/actions/workflows/test.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/test.yml)
   [![build](https://github.com/andrewmcodes/standardrb-action/actions/workflows/build.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/build.yml)
   [![release](https://github.com/andrewmcodes/standardrb-action/actions/workflows/release.yml/badge.svg)](https://github.com/andrewmcodes/standardrb-action/actions/workflows/release.yml)
-  ![Version Number](https://img.shields.io/static/v1?label=Version&message=v1.0.0&color=blue)
 </div>
 
 # :white_check_mark: StandardRB Action
@@ -15,8 +28,6 @@ A GitHub Action to run [StandardRB](https://github.com/testdouble/standard) agai
 ## :page_facing_up: Introduction
 
 GitHub Actions are an amazing new tool that can dramatically improve productivity while using the GitHub platform. While it is not hard to write a custom GitHub action to run StandardRB on your codebase, this action takes that functionality one step further using the checks API. After the StandardRB Linter Action runs StandardRB against your code, it will create annotations that you can easily view, matched up with the offending code.
-
-Since GitHub actions and the checks API are continually changing, it is possible that there will be breaking API changes that affect this action. If so, please open an issue and I will look into it as soon as I can.
 
 ## :bulb: Usage
 
