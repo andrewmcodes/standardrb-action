@@ -2,25 +2,18 @@ name: StandardRB
 
 on:
   pull_request:
-    branches:
-      - '*'
   push:
-    branches:
-      - master
+    branches: ["main"]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
-  standardrb:
-    name: StandardRB Action
+  lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.6.x
-    - name: Bundle
-      run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-    - name: Run standardrb
-      run: bin/standardrb
+      - uses: actions/checkout@v4
+      - uses: andrewmcodes/actions/setup-ruby@main
+      - name: 🔍 Standard
+        uses: andrewmcodes/actions/standard@main
