@@ -28,7 +28,7 @@ Add the following to your GitHub action workflow to use StandardRB Linter Action
 
 ```yaml
 - name: StandardRB Linter
-  uses: andrewmcodes/standardrb-action@v1.0.0
+  uses: andrewmcodes/standardrb-action@v2.0.0
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -46,9 +46,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - name: StandardRB Linter
-      uses: andrewmcodes/standardrb-action@v1.0.0
+      uses: andrewmcodes/standardrb-action@v2.0.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -56,6 +56,8 @@ jobs:
 ## :warning: Gotchas
 
 Due to the GitHub Check Runs API, we can only return 50 annotations per run. See [here](https://developer.github.com/v3/checks/runs/#output-object) for more info.
+
+This is not an issue if you remove this action from your workflow and replace with `bundle exec standardrb --format github --parallel` as mentioned in the caution above.
 
 ## :camera_flash: Screenshots
 
