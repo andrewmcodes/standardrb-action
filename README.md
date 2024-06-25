@@ -1,18 +1,6 @@
- > [!CAUTION]
-> This action is unnecessary and will slow down your CI suite. As such, it is not actively maintained.
-> To migrate, add this job to your workflow to achieve the same results:
->
-> ```
-> standardrb:
->   name: StandardRB
->   runs-on: ubuntu-latest
->   steps:
->     - uses: actions/checkout@v4
->     - uses: ruby/setup-ruby@v1
->       with:
->         bundler-cache: true
->     - run: bundle exec standardrb --format github --parallel
-> ```
+> [!CAUTION]
+> This action is not actively maintained and is being actively maintained by the Standard Ruby team at [standardrb/standard-ruby-action](https://github.com/standardrb/standard-ruby-action)
+
 
 # :white_check_mark: StandardRB Action
 
