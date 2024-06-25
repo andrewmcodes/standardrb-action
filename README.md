@@ -1,5 +1,5 @@
 > [!CAUTION]
-> This action is not actively maintained and is being actively maintained by the Standard Ruby team at [standardrb/standard-ruby-action](https://github.com/standardrb/standard-ruby-action)
+> This action is not maintained and is being actively maintained by the Standard Ruby team at [standardrb/standard-ruby-action](https://github.com/standardrb/standard-ruby-action)
 
 
 # :white_check_mark: StandardRB Action
