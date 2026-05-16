@@ -14,7 +14,7 @@ jobs:
     name: Rspec Test Action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - uses: andrewmcodes/actions/setup-ruby@main
     - name: Run Rspec
       run: bin/rspec
